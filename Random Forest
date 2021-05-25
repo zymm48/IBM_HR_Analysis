@@ -192,4 +192,3 @@ table(test$rf_pred_class,test$Attrition, dnn=c("predicted","actual"))  # confusi
 table1<-table(test$rf_pred_class,test$Attrition, dnn=c("predicted","actual")) 
 confusionMatrix(table1)
 ```
-
