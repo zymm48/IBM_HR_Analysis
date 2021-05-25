@@ -187,3 +187,4 @@ table(test$ct_bp_pred_class,test$Attrition, dnn=c("predicted","actual"))  # conf
 table1<-table(test$ct_bp_pred_class,test$Attrition, dnn=c("predicted","actual")) 
 confusionMatrix(table1)
 ```
+
